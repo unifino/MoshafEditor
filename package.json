@@ -1,15 +1,16 @@
 {
-    "name": "fitored",
+    "name": "moshaf_editor",
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "serve": "vue-cli-service serve",
+        "serve": "vue-cli-service serve --resolveJsonModule",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
         "vue": "^3.0.0",
         "vue-class-component": "^8.0.0-0",
+        "vue-next-select": "^2.10.4",
         "vuex": "^4.0.0-alpha.1"
     },
     "devDependencies": {

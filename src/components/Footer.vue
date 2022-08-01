@@ -1,10 +1,10 @@
 <template>
 <div id="footer">
 
-    Fitored DESG. & Dev. 
+    Fitored DESG. & Dev.
     <span class="copyRight">©</span>
     2020
-    
+
 </div>
 </template>
 

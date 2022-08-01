@@ -1,5 +1,5 @@
 
-export enum MyProducts { 
+export enum MyProducts {
     "fitored",
     "dora",
     "n_word",

@@ -2,10 +2,7 @@
 <div id="root" ref="root">
 
     <BG />
-    <Header />
     <Screen />
-    <Options />
-    <Footer />
 
 </div>
 </template>
@@ -18,10 +15,7 @@
 
 import { defineComponent, onMounted, ref }   from "vue";
 import BG                               from "@/components/BG.vue"
-import Header                           from "@/components/Header.vue"
 import Screen                           from "@/components/Screen.vue"
-import Options                          from "@/components/Options.vue"
-import Footer                           from "@/components/Footer.vue"
 import * as TS                          from "@/types/types"
 import * as VX                          from "@/store/store";
 
@@ -35,10 +29,7 @@ export default defineComponent ( {
 
     components: {
         BG,
-        Header,
-        Screen,
-        Options,
-        Footer
+        Screen
     },
 
 // -- =====================================================================================
